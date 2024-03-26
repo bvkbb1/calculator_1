@@ -1,14 +1,17 @@
 var button = document.getElementsByTagName('button');
-var displayValue  = "0";
-displayValue  = document.getElementById("display")
+var displayValue  = document.getElementById("display");
 
 for (i=0; i<button.length; i++){
     button[i].onclick = function(){
         let input = this.innerText
         updateDisplay(input)
-        
     }
 }
+
+function onAllClearBtnClicked(){
+    displayValue  = "0";
+}
+
 function updateDisplay(input){
 
     if (displayValue.innerText == "0"){

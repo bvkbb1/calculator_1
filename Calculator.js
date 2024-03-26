@@ -1,5 +1,6 @@
 var button = document.getElementsByTagName('button');
-var displayValue  = document.getElementById("display")
+var displayValue  = "0";
+displayValue  = document.getElementById("display")
 
 for (i=0; i<button.length; i++){
     button[i].onclick = function(){

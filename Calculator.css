@@ -34,6 +34,9 @@ h1{
     margin-top: 15px;
     border-radius: 10px 10px 0px 0px;
     font-size: 30px;
+    display:flex;
+    align-items:center;
+    judtify-content:start;
 }
 .buttons{
     width: 20vw;

@@ -27,6 +27,7 @@ h1{
 #display{
     position: relative;
     width: 18.7vw;
+    height:10vh;
     background-color: black;
     color: gold;
     padding: 10px 10px;

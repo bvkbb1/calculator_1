@@ -9,7 +9,7 @@ for (i=0; i<button.length; i++){
 }
 
 function onAllClearBtnClicked(){
-    displayValue  = "0";
+    displayValue.innerText  = "0";
 }
 
 function updateDisplay(input){
